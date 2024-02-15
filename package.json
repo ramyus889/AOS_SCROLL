@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/ramyus889/AOS_SCROLL",
+  "homepage": "/AOS_SCROLL/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +7,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

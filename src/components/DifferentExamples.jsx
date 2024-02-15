@@ -119,7 +119,7 @@ const DifExamp = () => {
           <div
             className="border-[12px] border-white bg-[#202746]"
             data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
+            data-aos-anchor="left"
             data-aos-offset="500"
             data-aos-duration="500"
           >
@@ -136,10 +136,7 @@ const DifExamp = () => {
                     <span className="text-[#87cefa] ps-[37px]">
                       data-aos-anchor
                     </span>
-                    =
-                    <span className="text-[#ff8c00]">
-                      &quot;#example-anchor&quot;
-                    </span>
+                    =<span className="text-[#ff8c00]">&quot;left&quot;</span>
                     <br />
                     <span className="text-[#87cefa] ps-[37px]">
                       data-aos-offset
