@@ -1,12 +1,9 @@
+import git_img from "/public/img/github_octocat.png";
 const HeaderAOS = () => {
   return (
     <div className="">
       <div className="" data-aos="zoom-out" data-aos-delay="1500">
-        <img
-          src="public/img/github_octocat.png"
-          className="w-[4.5%] float-right pt-5 pe-5"
-          alt=""
-        />
+        <img src={git_img} className="w-[4.5%] float-right pt-5 pe-5" alt="" />
       </div>
       <div
         className="text-center items-center justify-center pt-[357px] text-[60px] text-[#000000] font-bold opacity-[50%]"

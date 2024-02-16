@@ -4,13 +4,18 @@ import Flip from "./components/Flip";
 import Zoom from "./components/Zoom";
 import DifferentExamples from "./components/DifferentExamples";
 import AnchorPlacement from "./components/AnchorPlacement";
+import city_img from "/public/img/bg.jpg";
 
 const App = () => {
   return (
     <div className="">
       <div className="overflow-x-auto ">
         <div className="fixed w-full h-full -z-10 opacity-75">
-          <div className="bg-[url('public/img/bg.jpg')]  h-screen bg-no-repeat bg-cover"></div>
+          <img
+            src={city_img}
+            className="w-full h-screen bg-no-repeat bg-cover"
+            alt=""
+          />
         </div>
         <HeaderAOS />
         <Fade />
